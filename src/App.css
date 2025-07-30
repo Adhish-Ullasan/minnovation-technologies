@@ -13,7 +13,7 @@
   max-width: 1200px;
 }
 
-header {
+header > div  {
 
   display: flex;
   font-family: "Poppins", sans-serif;;
@@ -21,12 +21,6 @@ header {
 }
 
 .headerOptions {
-
   display: flex;
-  justify-content: space-around;
-} 
-
-.headerOptions > div {
-  display:flex;
   justify-content: space-around;
 }
