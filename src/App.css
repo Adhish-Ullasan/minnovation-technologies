@@ -161,6 +161,7 @@ a {
 
   .connect > div:nth-child(2) {
     display: flex;
+    justify-content: space-evenly;
   }
 
   .connect {
@@ -174,4 +175,12 @@ a {
   .wrapper {
     display: grid;
     grid-template-columns: 15% 85%;
+  }
+
+  .imageWrap {
+    max-width: 350px;
+  }
+
+  .imageWrap img {
+    width: 100%;
   }

@@ -27,7 +27,7 @@ const Home = () => {
                     <h2>Connect and collaborate from asingle pane of glass.</h2>
                   </div>
                   <div>
-                      <div>
+                      <div className="imageWrap">
                         <img src="/images/home/Analytics.svg" alt="analytics" />
                       </div>
                       <div>
