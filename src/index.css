@@ -5,3 +5,13 @@
   font-family: 'Nova Custom';
   src: url('/fonts/Nova_Square/');
 } */
+
+
+:root{
+  --primaryColor : #50A0C8
+}
+
+a {
+   text-decoration: none;
+   color: var(--primaryColor);
+}

@@ -11,18 +11,19 @@ const Header = () => {
             </div>
             <div className='headerOptions'>
                 <div>
-                  <p>Home</p>
+                  <a href="#">Home</a>
                 </div>
                 <div>
-                  <p>About</p>
-                  </div>
-                <div>
-                  <p>Products</p>
-
+                  <a href="#">About</a>
                 </div>
-                  <p>Services</p>
                 <div>
-                  <p>Blog</p>
+                  <a href="#">Product</a>
+                </div>
+                <div>
+                  <a href="#">Services</a>
+                </div>
+                <div>
+                  <a href="#">Blog</a>
                 </div>
               </div>
               <div>
