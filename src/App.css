@@ -24,6 +24,7 @@ h1 {
 header div {
   display: flex;
   justify-content: space-between;
+  align-items: anchor-center;
 }
 
 .headerOptions {

@@ -15,3 +15,18 @@ a {
    text-decoration: none;
    color: var(--primaryColor);
 }
+
+.primaryButton{
+
+    /* padding-top: 5px; */
+    font-weight: 600;
+    font-size: 12px;
+    height: 48px;
+    width: 154px;
+    border-radius:5px;
+    background-color: var(--primaryColor);
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+  
+
+}
