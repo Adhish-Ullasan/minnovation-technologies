@@ -2,25 +2,38 @@
   --primaryColor : 50A0C8
 }
 
-* {
+#logo {
+  padding-right: 2rem;
+}
 
+#logo img {
+  padding-right: 1rem;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+#companyname {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0;
 }
 
-.container {
-
-  max-width: 1200px;
-}
-
-header > div  {
-
+header div {
   display: flex;
-  font-family: "Poppins", sans-serif;;
-
+  justify-content: space-between;
 }
 
 .headerOptions {
+
   display: flex;
   justify-content: space-around;
+  align-items: anchor-center;
+  width: 100%;
+  padding-left: 3rem;
 }

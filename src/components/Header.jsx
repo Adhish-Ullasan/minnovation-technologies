@@ -5,8 +5,9 @@ const Header = () => {
     return (
         <header>
             <div className="container">
-            <div>
+            <div id="logo">
               <img src="/images/header/minovationlogo.svg" alt="logo image" />
+              <h1>Minnovation<span id="companyname"><br />TECHNOLOGIES</span></h1>
             </div>
             <div className='headerOptions'>
                 <div>
