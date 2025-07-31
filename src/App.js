@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Header from './components/Header';
 import Footer from './components/footer';
 import Homebanner from './components/Homebanner';
+import Services from './components/Services';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
    <Header/>
    <Home/>
    <Homebanner/>
+   <Services/>
    <Footer/>
    </>
   );
