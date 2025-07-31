@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
 import Header from './components/Header';
+import Footer from './components/footer';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
    <>
    <Header/>
    <Home/>
+   <Footer/>
    </>
   );
 }

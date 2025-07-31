@@ -35,3 +35,115 @@ header div {
   width: 100%;
   padding-left: 3rem;
 }
+
+/* Footer */
+
+footer > div {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    color:#ffffff ;
+    margin-bottom: 1.5rem;
+}
+
+.footerOptions > ul {
+    list-style-type: none;
+}
+
+.footerOptions > ul > li > a {
+  font-size: 14px;
+  color:#ffffff ;
+}
+
+footer > div > div {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 20%;
+}
+
+ul {
+ 
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.call {
+    display: flex;
+    align-items: anchor center;
+    border: 1px solid var(--secondary-color);
+ }
+
+ .call > div:first-child > img {
+    max-width: 40px;
+ }
+
+ .call > div:last-child > p {
+    color: #ffffff;
+    font-size: 13px;
+ }
+ 
+ .call > div:last-child {
+     padding: 1rem 1rem 1rem;
+     line-height: 1.5rem;
+
+ }
+
+ .call > div:first-child {
+    display: flex;
+    align-self: center;
+ }
+
+
+
+ .footerOptions {
+    line-height: 2rem;
+ }
+
+ footer > div > div >div:first-child > img {
+    width: 105px;
+    height: 25px;
+    margin-bottom: 1.5rem;
+
+ }
+
+ .footerOptions > h3 {
+    margin-bottom: 1rem;
+    font-size: 16px;
+ }
+
+ footer {
+      padding-bottom: 1rem;
+      font: normal 300 1.0rem / 1.8 Poppins, sans-serif;
+      background-color: #000000;
+      padding-top: 43px;
+
+ }
+
+ footer > div:last-child {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    color: #ffffff;
+ }
+
+ footer > div:first-child {
+
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--secondary-color);
+ }
+
+  .call > div:last-child  > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+  }
