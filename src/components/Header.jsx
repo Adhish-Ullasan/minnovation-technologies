@@ -6,7 +6,7 @@ const Header = () => {
         <header>
             <div className="container">
             <div>
-              <img src="" alt="logo image" />
+              <img src="/images/header/minovationlogo.svg" alt="logo image" />
             </div>
             <div className='headerOptions'>
                 <div>
