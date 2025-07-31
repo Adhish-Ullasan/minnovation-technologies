@@ -147,3 +147,14 @@ a {
     font-weight: 400;
     font-size: 20px;
   }
+
+  /* HOME PAGE */
+
+  .landingpage > div:first-child p {
+    color: var(--primaryColor);
+  }
+
+  .landingpage {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }

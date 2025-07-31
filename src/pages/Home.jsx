@@ -4,7 +4,7 @@ const Home = () => {
 
     return (
         <>
-          <div className="container">
+          <div className="container landingpage">
             <div>
               <p>AlphaX Data Platform™</p>
             </div>
@@ -12,7 +12,7 @@ const Home = () => {
               <h2>Edge to Insight</h2>
             </div>
             <div>
-              <p>vTransform data from sensors and field devices <br />
+              <p>Transform data from sensors and field devices <br />
                 into insights for your team.</p>
             </div>
             <div>
