@@ -1,6 +1,6 @@
 const CaseStudyCard =  () => {
     return(
-        <div className="case-cards">
+        <div className=" container case-cards">
             <div className="case-imageWrap">
                 <img src="/images/home/faciliities.svg" alt="" />
             </div>
