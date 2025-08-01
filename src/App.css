@@ -214,3 +214,7 @@ a {
     padding-top: 2rem;
     margin-bottom: 2rem0;
   }
+
+  .casecard-wrapper {
+    display: flex;
+  }
