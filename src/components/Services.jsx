@@ -3,7 +3,7 @@ import ServiceCards from "./ServiceCards"
 
 const Services = () => {
     return (
-        <section>
+        <section id="service">
             <div className="container">
                 <div className="title">
                         <h2>Hardware, software, and services, working together as one.</h2>

@@ -1,7 +1,7 @@
 const Homebanner = () => {
 return (
 
-            <section>
+            <section id="homebanner">
         <div className="container">
             <div className="landingpage">
                 <div>
