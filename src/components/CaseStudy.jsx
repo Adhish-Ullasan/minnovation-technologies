@@ -6,6 +6,7 @@ const CaseStudy = () =>{
                 <p>Explore customer stories from organizations just like yours, from in industries just like yours to see how they’re using data to generate insights,<br />
                  make data driven decisions and accelerate their digital transformation.</p>
             </div>
+            
         </section>
     )
 }
