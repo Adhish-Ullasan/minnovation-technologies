@@ -1,7 +1,7 @@
 const CaseStudyCard =  () => {
     return(
         <div className="case-cards">
-            <div>
+            <div className="case-imageWrap">
                 <img src="/images/home/faciliities.svg" alt="" />
             </div>
             <div>
@@ -17,9 +17,9 @@ const CaseStudyCard =  () => {
                     whirlpool and third floor sundeck. 
                 </p>
 
-            </div>
-            <div>
-                <button className='primaryButton'>READ MORE</button>
+                <div>
+                    <button className='primaryButton'>READ MORE</button>
+                </div>
             </div>
         </div>
     )

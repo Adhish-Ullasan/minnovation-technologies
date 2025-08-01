@@ -215,6 +215,26 @@ a {
     margin-bottom: 2rem0;
   }
 
-  .casecard-wrapper {
-    display: flex;
-  }
+.case-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom:2rem;
+}
+
+.case-imageWrap {
+  max-width: 380px;
+  min-height: 360px;
+}
+
+img {
+  width: 100%;
+}
+
+
+#caseStudy > div h2 {
+  text-align: center;
+}
+
+#caseStudy > div p {
+  text-align: center;
+}
