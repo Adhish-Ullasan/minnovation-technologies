@@ -185,3 +185,22 @@ a {
   .imageWrap img {
     width: 100%;
   }
+
+  .serviceCards > div {
+        max-width:380px;
+        border:1px solid whitesmoke;
+        border-radius:10px;;
+        box-shadow: 5px 5px 5px 0px whitesmoke;
+    }
+
+  .serviceImage{
+    background: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  h5 {
+    color: var(--primaryColor);
+    text-align: center;
+  }
