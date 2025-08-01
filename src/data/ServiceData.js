@@ -1,4 +1,4 @@
-const ServiceData = [
+export const serviceData = [
     {
         Image:"/public/images/home/datamanagement.svg",
         serviceName: "Data Management"
@@ -24,5 +24,3 @@ const ServiceData = [
         serviceName: "Partners,Resellers and Integrators"
     },
  ]
-
- export default ServiceData

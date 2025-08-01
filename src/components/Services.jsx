@@ -1,3 +1,4 @@
+import { serviceData } from "../data/ServiceData"
 import ServiceCards from "./ServiceCards"
 
 const Services = () => {
@@ -9,10 +10,14 @@ const Services = () => {
                         <p>Minnovation hardware, software, and services work together to give your teams the power and flexibility to do whatever needs doing — whether  <br /> 
                         <span>you’re an integrator, OEM or running a global enterprise, Minnovation is here to support you.</span></p>
                 </div>
-               <ServiceCards />
+                <div className="card-wrapper">
+                    {
+                        serviceData.map(()=> <ServiceCards />)
+                    }
+                </div>
             </div>
         </section>
     )
 }
 
-export default Services
+export default Services 
