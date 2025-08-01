@@ -247,3 +247,8 @@ a {
 #caseStudy > div p {
   text-align: center;
 }
+
+.blogCards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
