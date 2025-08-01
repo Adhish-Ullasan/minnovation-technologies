@@ -230,6 +230,15 @@ img {
   width: 100%;
 }
 
+#caseStudy {
+  background: whitesmoke;
+  margin-top: 1.5rem;
+}
+
+#caseStudy > div:first-child {
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
 
 #caseStudy > div h2 {
   text-align: center;
