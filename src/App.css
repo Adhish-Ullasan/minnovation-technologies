@@ -240,6 +240,10 @@ a {
   padding-bottom: 2rem;
 }
 
+.casecard-wrapper{
+  padding-bottom: 2rem;
+}
+
 #caseStudy > div h2 {
   text-align: center;
 }
@@ -251,4 +255,18 @@ a {
 .blogCards {
   display: grid;
   grid-template-columns: repeat(3,1fr);
+}
+
+.blogtitle {
+  color: var(--primaryColor);
+  text-align: center;
+}
+
+#blog > div:last-child {
+  display: flex;
+  justify-content: center;
+} 
+
+#blog {
+  margin-bottom: 2rem;
 }

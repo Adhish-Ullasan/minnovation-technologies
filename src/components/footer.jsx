@@ -2,8 +2,8 @@
 const Footer = () => {
 
     return (
-            <footer>
-            <div className="contianer">
+            <footer className="container">
+            <div>
                 <div>
                 <div id="footerLogo">
                     <img src="/images/footer/footerlogo.svg" alt="" />
@@ -91,7 +91,7 @@ const Footer = () => {
                 </ul>
                 </div>
             </div>
-            <div className="contianer">
+            <div>
                 <div>
                 <p>Copyright © 2025 Molla Store. All Rights Reserved.</p>
                 </div>
