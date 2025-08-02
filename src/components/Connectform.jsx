@@ -11,23 +11,19 @@ const ConnectForm = () => {
                         <img src="/images/home/connect.svg" alt="" />
                     </div>
                     <div>
+                        <p>To learn more about optimising your operation or to become a partner, <br />fill out the form to the right. We have experts ready to help you!</p>
                         <form action="./users" method="post">
                             <div>
                                 <div>
-                                <div>
-                                    <input className="primaryInput" type="text" placeholder="Name*" />
+                                    <div>
+                                        <input className="primaryInput" type="text" placeholder="Firstname*" />
+                                    </div>
+                                    <div>
+                                        <input className="primaryInput" type="text" placeholder="Lastname*" />
+                                    </div>
                                 </div>
                                 <div>
                                     <input className="primaryInput" type="text" placeholder="Email*" />
-                                </div>
-                                </div>
-                                <div>
-                                <div>
-                                    <input className="primaryInput" type="text" placeholder="Phone*" />
-                                </div>
-                                <div>
-                                    <input className="primaryInput" type="text" placeholder="Subject*" />
-                                </div>
                                 </div>
                             </div>
                             <div>
@@ -40,9 +36,9 @@ const ConnectForm = () => {
                                 defaultValue={""}
                                 />
                             </div>
-                            <div className="primaryButton">
+                            <div>
                                 <div>
-                                <button>
+                                <button  className="primaryButton">
                                     SUBMIT
                                 </button>
                                 </div>

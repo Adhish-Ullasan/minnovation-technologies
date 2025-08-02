@@ -276,11 +276,14 @@ a {
 .formDetails {
 
   display: flex;
+  justify-content: space-evenly;
 }
 
 .primaryInput {
 
     width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.074);
+    min-height: 30px;
 }
 
 
@@ -303,17 +306,27 @@ form {
 }
 
 #textarea {
-
+    margin-top: 1rem;
     margin-bottom: 1rem;
     width: 100%;
     padding-top: 8px;
     padding-bottom: 8px;
     min-height: 28px;
-    border: 1px solid var(--secondary-color);
-    background-color: #f8f8f8
+    border: 1px solid rgba(0, 0, 0, 0.059);
 }
 
 #textarea::placeholder {
     position: absolute;
     left: 2%;
+}
+
+#connect h2 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#connect > div {
+  background: whitesmoke;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
