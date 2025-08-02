@@ -6,7 +6,7 @@ const ConnectForm = () => {
                 <div>
                     <h2>Lets Connect</h2>
                 </div>
-                <div>
+                <div className="formDetails">
                     <div className="connectimage-wrapper">
                         <img src="/images/home/connect.svg" alt="" />
                     </div>
