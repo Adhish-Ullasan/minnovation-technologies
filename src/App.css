@@ -325,8 +325,8 @@ form {
   padding-top: 2rem;
 }
 
-#connect > div {
-  background: whitesmoke;
+#connect  {
+  background: #50a0c81c;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 }
