@@ -1,26 +1,26 @@
 export const serviceData = [
     {
-        Image:"/public/images/home/datamanagement.svg",
+        Image:"/images/home/datamanagement.svg",
         serviceName: "Data Management"
     },
     {
-        Image:"/public/images/home/cloudconnectivity.svg",
+        Image:"/images/home/cloudconnectivity.svg",
         serviceName: "Edge To Cloud Connectivity"
     },
     {
-        Image:"/public/images/home/videoanalysis.svg",
+        Image:"/images/home/videoanalysis.svg",
         serviceName: "Real Time Video Analytics"
     },
     {
-        Image:"/public/images/home/happysmillingwoman.svg",
+        Image:"/images/home/happysmilingwoman.svg",
         serviceName: "Sensing As a Service Managed Service"
     },
     {
-        Image:"/public/images/home/vendor.svg",
+        Image:"/images/home/vendor.svg",
         serviceName: "lot Vendor Market Place"
     },
     {
-        Image:"/public/images/home/pleasuedoingbusinnes.svg",
+        Image:"/images/home/pleasuredoingbusiness.svg",
         serviceName: "Partners,Resellers and Integrators"
     },
  ]

@@ -1,5 +1,5 @@
 import { serviceData } from "../data/ServiceData"
-import ServiceCards from "./ServiceCards"
+import { ServiceCards } from "./ServiceCards"
 
 const Services = () => {
     return (
@@ -12,7 +12,7 @@ const Services = () => {
                 </div>
                 <div className="card-wrapper">
                     {
-                        serviceData.map(()=> <ServiceCards />)
+                        serviceData.map((item)=> <ServiceCards data = {item}/>)
                     }
                 </div>
             </div>
