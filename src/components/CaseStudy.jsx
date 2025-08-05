@@ -1,5 +1,5 @@
 import { casestudyData } from "../data/CaseStudyData"
-import CaseStudyCard from "./CaseStudyCard"
+import { CaseStudyCard } from "./CaseStudyCard"
 
 const CaseStudy = () =>{
     return ( 
@@ -11,7 +11,7 @@ const CaseStudy = () =>{
             </div>
             <div className="casecard-wrapper">
                 {
-                    casestudyData.map(() => <CaseStudyCard/>)
+                    casestudyData.map((item) => <CaseStudyCard data = {item}/>)
                 }
             </div>
         </section>
