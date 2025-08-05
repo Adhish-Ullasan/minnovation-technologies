@@ -7,14 +7,14 @@ export const casestudyData = [
         button :"READ MORE"
     },
     {
-        image : "/images/home/faciliities2.svg",
+        image : "/images/home/facilities2.svg",
         heading : "Facilities Management",
         caseTopic : "Optimised Scheduling of Essential Services at Remote Managed Facility",
         description : "Hobart General Post Office (Hobart GPO) is a landmark building located on the corner of Elizabeth Street and Macquarie Street in Hobart, Tasmania, Australia. It stands next to the former Mercury Building and has served as the headquarters of the Tasmanian Postal system since its construction in 1905. The building has been listed on the Commonwealth Heritage List since 2004",
         button :"READ MORE"
     },
     {
-        image : "/images/home/faciliities3.svg",
+        image : "/images/home/facilities3.svg",
         heading : "Infrastructure",
         caseTopic : "Increasing Critical Asset MTBF at Remote MIne",
         description : "The Sibelco Galong site produces lime for agricultural uses including farming canola and grain. The site produces approximately 300,000 tons per year which is approximately 1/4 of the demand for the Australian state of New South Wales. Apart from agricultural purposes, a major consumer of lime from the Galong is the Port Kembla steel works. The latest lime kiln was built at the mine in 2003/04 to allow the production of quicklime for use in cemen",
